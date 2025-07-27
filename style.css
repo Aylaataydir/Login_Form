@@ -5,14 +5,14 @@
  --ff-poppins:'Poppins', sans-serif;
 
  --fs-xl:2rem; /* 32/16 */
- --fs-lg:1.125rem /* 18/16 */;
+ --fs-lg:1.25rem /* 20/16 */;
  --fs-md:1rem;
  --fs-sm:.875rem; /* 14/16 */
  --fs-xs:.75rem; /* 12/16 */
 
- --fw-a: 25rem; /* 400/16 */
- --fw-b:37.5rem; /* 600/16 */
- --fw-c:43.75rem; /* 700/16 */
+ --fw-a: 400; /* 400/16 */
+ --fw-b: 600; /* 600/16 */
+ --fw-c: 700; /* 700/16 */
 
 
  }
@@ -92,3 +92,57 @@ h6 {
 
 /*----------------------------------*/
 
+body{
+
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    background-image: url(images/6205261.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: var(--ff-poppins);
+    color: rgb(222, 215, 215);
+   
+}
+
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+   
+}
+
+.title{
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-b);
+
+}
+
+
+.nav-ul { 
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(222, 215, 215);
+    font-size: var(--fs-sm);
+    font-weight: 500;   
+}
+
+.login-button {
+    
+    padding: 7px 15px;
+    border-radius: 20px;
+    background-color: #065a60;
+}
+
+.welcome {
+  
+}
