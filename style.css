@@ -92,15 +92,18 @@ h6 {
 
 /*----------------------------------*/
 
+
 body{
 
     width: 100vw;
     height: 100vh;
     max-width: 100%;
+    display: flex;
+    flex-direction: column;
     background-image: url(images/6205261.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    
     font-family: var(--ff-poppins);
     color: rgb(222, 215, 215);
    
@@ -144,5 +147,11 @@ a{
 }
 
 .welcome {
-  
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+  margin: 180px auto;
 }
