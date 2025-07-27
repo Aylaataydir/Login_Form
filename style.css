@@ -1,0 +1,94 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+ 
+ :root{
+
+ --ff-poppins:'Poppins', sans-serif;
+
+ --fs-xl:2rem; /* 32/16 */
+ --fs-lg:1.125rem /* 18/16 */;
+ --fs-md:1rem;
+ --fs-sm:.875rem; /* 14/16 */
+ --fs-xs:.75rem; /* 12/16 */
+
+ --fw-a: 25rem; /* 400/16 */
+ --fw-b:37.5rem; /* 600/16 */
+ --fw-c:43.75rem; /* 700/16 */
+
+
+ }
+ 
+ /* --------- CSS RESET ---------*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+* {
+    margin: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        interpolate-size: allow-keywords;
+        scroll-behavior: smooth;
+    }
+}
+
+body {
+
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+img,
+picture,
+video,
+canvas,
+svg {
+
+    max-width: 100%;
+    height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+/*----------------------------------*/
+
