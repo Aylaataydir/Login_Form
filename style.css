@@ -16,7 +16,7 @@
      --fs-xs: .75rem;
      /* 12/16 */
 
-     --fw-a: 400;
+     --fw-a: 500;
      /* 400/16 */
      --fw-b: 600;
      /* 600/16 */
@@ -221,12 +221,14 @@
  .input-field {
      background-color: rgba(255, 255, 255, 0.1);
      width: 100%;
+     font-weight: var(--fw-a);
      color: white;
      text-align: left;
      border: none;
      outline: none;
      border-radius: 30px;
      padding: 10px 80px;
+     
     
 
  }
@@ -236,6 +238,12 @@
     display: flex;
     justify-content: space-between;
     font-weight: var(--fw-a);
+ }
+
+ .one label {
+    cursor: pointer;
+    font-weight: 500;
+    
  }
 
  .submit {
@@ -253,4 +261,13 @@
     width: 100%;
     text-align: center;
     
+    
+ }
+
+ .register_text {
+    font-size: var(--fs-md);
+    font-weight: var(--fw-b);
+    text-decoration: underline;
+    padding-left: 5px;
+    cursor: pointer;
  }
