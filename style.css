@@ -189,10 +189,9 @@
      font-size: var(--fs-sm);
  }
 
+
+
  /* ---- login page styles ---- */
-
-
-
 
 
 
@@ -207,13 +206,12 @@
     position: absolute;
     top: 80px;
     right: 300px;
-       padding: 9px 25px;
-     font-weight: var(--fw-b);
-     border: none;
-     outline: none;
-     border-radius: 20px;
-     background-color: rgba(255, 255, 255, 0.1);
-    
+    padding: 9px 25px;
+    font-weight: var(--fw-b);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
  }
 
   .home-button:hover {
@@ -238,21 +236,18 @@
  }
 
 
-
-
  .login-box {
      display: flex;
      align-items: center;
      position: relative;
-
  }
+
 
  .login-box i {
      position: absolute;
      left: 8%;
-
-
  }
+
 
  .input-field {
      background-color: rgba(255, 255, 255, 0.1);
@@ -263,10 +258,7 @@
      border: none;
      outline: none;
      border-radius: 30px;
-     padding: 10px 80px;
-     
-    
-
+     padding: 10px 80px; 
  }
 
 
@@ -274,9 +266,9 @@
     display: flex;
     justify-content: space-between;
     font-weight: var(--fw-a);
-   
-    
+    padding: 0 6px;
  }
+
 
  .one label {
     cursor: pointer;
@@ -293,15 +285,22 @@
     outline: none;
     padding: 10px;
     border-radius: 30px;
+    cursor: pointer;
  }
+
+
+ .submit:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+ }
+
 
  .register {
     width: 100%;
     text-align: center;
-    
-    
+    padding: 10px;
  }
 
+ 
  .register_text {
     font-size: var(--fs-md);
     font-weight: var(--fw-b);
