@@ -192,17 +192,53 @@
  /* ---- login page styles ---- */
 
 
+
+
+
+
  body.login-page {
      display: flex;
      justify-content: center;
      align-items: center;
+     position: relative;
  }
+
+ .home-button {
+    position: absolute;
+    top: 80px;
+    right: 300px;
+       padding: 9px 25px;
+     font-weight: var(--fw-b);
+     border: none;
+     outline: none;
+     border-radius: 20px;
+     background-color: rgba(255, 255, 255, 0.1);
+    
+ }
+
+  .home-button:hover {
+     box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+     transform: scale(1.05);
+     color: white;
+     cursor: pointer;
+ }
+
+
+.top {
+    font-size: 40px;
+    text-align: center;
+    padding: 15px 0;
+}
+
 
  .login-container {
      display: flex;
      flex-direction: column;
      gap: 30px;
  }
+
+
+
 
  .login-box {
      display: flex;
@@ -238,6 +274,8 @@
     display: flex;
     justify-content: space-between;
     font-weight: var(--fw-a);
+   
+    
  }
 
  .one label {
