@@ -204,8 +204,8 @@
 
  .home-button {
     position: absolute;
-    top: 80px;
-    right: 300px;
+    top: 10%;
+    right: ;
     padding: 9px 25px;
     font-weight: var(--fw-b);
     border: none;
