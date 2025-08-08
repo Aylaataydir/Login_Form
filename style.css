@@ -120,11 +120,18 @@
 
 
  .navigation {
+    max-width: 100%;
      display: flex;
      justify-content: space-around;
      align-items: center;
      padding: 30px 0;
  }
+
+.bars{
+    display: none;
+}
+
+
 
  .logo {
      font-size: 24px;
@@ -314,3 +321,5 @@
  }
 
  
+ /*-----------Responsive-------*/
+
