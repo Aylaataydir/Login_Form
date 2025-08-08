@@ -37,6 +37,7 @@
 
  * {
      margin: 0;
+     padding: 0;
  }
 
  @media (prefers-reduced-motion: no-preference) {
@@ -333,13 +334,47 @@ html{
  /*-----------Responsive-------*/
 
 @media (max-width:738px){
-    .nav,.login-button{
+    .nav , .navigation .login-button{
         display: none;
 
 
     }
     .bar{
         display: block;
-        font-size: 40px;
+        font-size: 30px;
+    }
+
+    .dropdown-menu{ 
+        position: absolute;
+        right: 50px;
+        top: 65px;
+        background-color: rgba(255, 255, 255, 0.1);
+        width: 200px;
+        overflow: hidden;
+    }
+
+    .dropdown-menu .login-button{
+    width: 100%;
+    
+    
+
+    }
+
+
+    .dropdown_ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .dropdown-menu li{
+    padding: 6px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
     }
 }
