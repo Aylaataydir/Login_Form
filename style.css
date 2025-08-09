@@ -102,9 +102,10 @@
 
  /*----------------------------------*/
 
-html{
-    min-height: 100vh;
-}
+ html {
+     min-height: 100vh;
+ }
+
  body {
 
      min-height: 100vh;
@@ -116,24 +117,24 @@ html{
      background-position: center;
      font-family: var(--ff-poppins);
      color: rgb(222, 215, 215);
-     
-  
+
+
 
  }
 
 
  .navigation {
-     
-   
+
+
      display: flex;
      justify-content: space-between;
      align-items: center;
      padding: 30px 15px;
  }
 
-.bar{
-    display: none;
-}
+ .bar {
+     display: none;
+ }
 
 
 
@@ -192,9 +193,9 @@ html{
      top: 50%;
      left: 50%;
      transform: translate(-50%, -50%);
-     
-    
-    
+
+
+
  }
 
  .title {
@@ -220,18 +221,18 @@ html{
  }
 
  .home-button {
-    position: absolute;
-    top: 7%;
-    right: 20% ;
-    padding: 9px 25px;
-    font-weight: var(--fw-b);
-    border: none;
-    outline: none;
-    border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.1);
+     position: absolute;
+     top: 7%;
+     right: 20%;
+     padding: 9px 25px;
+     font-weight: var(--fw-b);
+     border: none;
+     outline: none;
+     border-radius: 20px;
+     background-color: rgba(255, 255, 255, 0.1);
  }
 
-  .home-button:hover {
+ .home-button:hover {
      box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
      transform: scale(1.05);
      color: white;
@@ -239,11 +240,11 @@ html{
  }
 
 
-.top {
-    font-size: 40px;
-    text-align: center;
-    padding: 15px 0;
-}
+ .top {
+     font-size: 40px;
+     text-align: center;
+     padding: 15px 0;
+ }
 
 
  .login-container {
@@ -275,116 +276,123 @@ html{
      border: none;
      outline: none;
      border-radius: 30px;
-     padding: 10px 80px; 
+     padding: 10px 80px;
  }
 
 
  .two-col {
-    display: flex;
-    justify-content: space-between;
-    font-weight: var(--fw-a);
-    padding: 0 6px;
+     display: flex;
+     justify-content: space-between;
+     font-weight: var(--fw-a);
+     padding: 0 6px;
  }
 
 
  .one label {
-    cursor: pointer;
-    font-weight: 500;
-    
+     cursor: pointer;
+     font-weight: 500;
+
  }
 
  .submit {
-    width: 100%;
-    background-color: whitesmoke;
-    font-weight: var(--fw-b);
-    text-align: center;
-    border: none;
-    outline: none;
-    padding: 10px;
-    border-radius: 30px;
-    cursor: pointer;
+     width: 100%;
+     background-color: whitesmoke;
+     font-weight: var(--fw-b);
+     text-align: center;
+     border: none;
+     outline: none;
+     padding: 10px;
+     border-radius: 30px;
+     cursor: pointer;
  }
 
 
  .submit:hover {
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+     box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
  }
 
 
  .register {
-    width: 100%;
-    text-align: center;
-    padding: 10px;
+     width: 100%;
+     text-align: center;
+     padding: 10px;
  }
 
- 
+
  .register_text {
-    font-size: var(--fs-md);
-    font-weight: var(--fw-b);
-    text-decoration: underline;
-    padding-left: 5px;
-    cursor: pointer;
+     font-size: var(--fs-md);
+     font-weight: var(--fw-b);
+     text-decoration: underline;
+     padding-left: 5px;
+     cursor: pointer;
  }
 
- :is(.register_text, .a_login):is(:hover, :focus){
-    color: rgb(198, 143, 161);
+ :is(.register_text, .a_login):is(:hover, :focus) {
+     color: rgb(198, 143, 161);
  }
 
- 
+
  /*-----------Responsive-------*/
 
-@media (max-width:738px){
-    .nav , .navigation .login-button{
-        display: none;
+ @media (max-width:738px) {
+
+     .nav,
+     .navigation .login-button {
+         display: none;
 
 
-    }
-    .bar{
-        display: block;
-        font-size: 30px;
-    }
+     }
 
-    .dropdown-menu{ 
-        position: absolute;
-        right: 50px;
-        top: 65px;
-        background-color: rgba(255, 255, 255, 0.1);
-        width: 200px;
-        overflow: hidden;
-    }
+     .bar {
+         display: block;
+         font-size: 30px;
+     }
 
-    .dropdown-menu .login-button{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    
-    }
+     .dropdown-menu {
+         position: absolute;
+         right: 50px;
+         top: 65px;
+         background-color: rgba(255, 255, 255, 0.1);
+         width: 200px;
+         overflow: hidden;
+     }
+
+     .dropdown-menu .login-button {
+         width: 100%;
+         display: flex;
+         justify-content: center;
+
+     }
 
 
-    .dropdown_ul{
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        padding: 10px;
-    }
+     .dropdown_ul {
+         list-style: none;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
 
-    .dropdown-menu li{
-    padding: 6px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-                  
-    
-    }
+         padding: 10px;
+     }
 
-    .dropdown-menu li:hover{
-        background-color: rgba(255, 255, 255, 0.1);
+     .dropdown-menu li {
+         padding: 6px;
+         width: 100%;
+     }
+
+     .dropdown-menu li:hover a {
+         background-color: rgba(255, 255, 255, 0.1);
          box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
          transform: scale(1.05);
-         color: #3a3238;
          border-radius: 30px;
-    }
-}
+     }
+
+     .dropdown-menu li a {
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         padding: 4px;
+     }
+
+
+ }
