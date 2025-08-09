@@ -343,17 +343,11 @@
      top: 70px;
      background-color: rgba(255, 255, 255, 0.1);
      width: 200px;
-     overflow: hidden;
-     transition: height 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-   
+   height: 0;
+   transition: height 0.9s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    
  }
 
-
- .dropdown-menu .login-button {
-     width: 100%;
-     display: flex;
-     justify-content: center;
-    }
 
 
  .dropdown_ul {
@@ -362,7 +356,6 @@
      flex-direction: column;
      justify-content: center;
      align-items: center;
-
      padding: 10px;
  }
 
@@ -405,6 +398,14 @@
      .bar:hover+.dropdown-menu,
      .dropdown-menu:hover {
          display: block;
+         height: 250px;
      }
+
+     .dropdown-menu .login-button {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+    }
+
 
  }
