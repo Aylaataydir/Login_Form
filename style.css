@@ -300,6 +300,7 @@
  .submit {
      width: 100%;
      background-color: whitesmoke;
+     color: #3a3238;
      font-weight: var(--fw-b);
      text-align: center;
      border: none;
@@ -415,6 +416,10 @@
 
      .subtitle{
         font-size: var(--fs-xs);
+     }
+
+     .login-container{
+        padding: 40px;
      }
 
 
